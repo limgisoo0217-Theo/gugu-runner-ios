@@ -1,0 +1,19 @@
+{
+  "name": "gugudan-runner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "구구단 러너 - 정답 문을 고르며 달리는 구구단 게임",
+  "scripts": {
+    "assets": "npx @capacitor/assets generate --ios --iconBackgroundColor '#1f8f3f' --splashBackgroundColor '#e8f3ea'",
+    "sync": "npx cap sync ios",
+    "open": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/assets": "^3.0.5"
+  }
+}

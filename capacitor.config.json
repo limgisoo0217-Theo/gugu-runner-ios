@@ -1,0 +1,11 @@
+{
+  "appId": "com.example.gugudanrunner",
+  "appName": "구구단 러너",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#e8f3ea",
+    "allowsLinkPreview": false,
+    "scrollEnabled": false
+  }
+}
